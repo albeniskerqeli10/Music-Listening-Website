@@ -1,7 +1,7 @@
 :root {
     --dark: #212121;
     --white :#fff;
-    --green:#ff9a00;
+    --orange:#ff9a00;
     --light:whitesmoke;
 }
 
@@ -14,7 +14,7 @@ font-family: 'Montserrat', sans-serif;
 .header {
     width: 100%;
     min-height: 80px;
-    background-color: var(--dark);
+    background-color: var( --dark);
     flex-wrap: wrap;
     display: flex;
     align-items: center;
@@ -70,14 +70,14 @@ font-family: 'Montserrat', sans-serif;
     font-weight: bold;
     text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
-    background-color: var(--green);
+    background-color: var( --orange);
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
 }
 
 .home {
     width: 100%;
-    background-color: var(--green);
+    background-color: var( --orange);
     min-height: 709px;
     display: flex;
     flex-direction: column;
@@ -187,7 +187,7 @@ color: white;
     padding: 15px 35px;
     font-size: 17px;
 line-height: 21px;
-    background-color: var(--green);
+    background-color: var( --orange);
     border:none;
     color: white;
     font-weight: bold;
@@ -202,7 +202,7 @@ line-height: 21px;
 
 .fluid {
     width: 100%;
-    background-color: var(--green);
+    background-color: var(--orange);
     min-height: 600px;
     display: flex;
     flex-direction: column;
@@ -281,6 +281,83 @@ margin:0 10px;
     font-weight: bold;
     cursor: pointer;
 }
+
+.artist {
+	width: 100%;
+	min-height: 600px;
+	display: flex;
+	align-items: center;
+	background-color: var( --orange);
+	justify-content: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+}
+
+.artist .row {
+	width: 100%;
+	min-height: 500px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-wrap: wrap;
+}
+
+.artist h1 {
+	color:white;
+	font-size: 30px;
+}
+
+.box {
+	width:350px;
+	min-height: 400px;
+		background: linear-gradient(
+          rgba(0, 0, 0, 0.1), 
+          rgba(0, 0, 0, 0.1)
+        ),url(traviss.jpg);
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 10px 0;
+	flex-direction: column;
+box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+
+filter: drop-shadow(1px 1px 1px white);
+		background-size: cover;
+}
+
+
+
+.box h1 {
+	font-size: 20px;
+	color: white;
+}
+
+.box .play {
+	background-color: var(--orange);
+	width: 70px;
+	color: white;
+		display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: row;
+	min-height: 70px;
+	border-radius: 300px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media only screen and (max-width: 850px) {
  
  .header {
