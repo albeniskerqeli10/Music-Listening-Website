@@ -26,7 +26,6 @@ font-family: 'Montserrat', sans-serif;
     color: white;
     display: flex;
     align-items: center;
-    justify-content: center;
     font-weight: bold;
         flex-wrap: wrap;
 
@@ -39,6 +38,7 @@ font-family: 'Montserrat', sans-serif;
     align-items: center;
     justify-content: center;
         flex-wrap: wrap;
+	background-color: transparent;
 
     flex-direction: row;
 }
@@ -279,6 +279,9 @@ margin:0 10px;
     display: none;
     font-size: 30px;
     font-weight: bold;
+    display: none;
+    align-items: center;
+    justify-content: space-between;
     cursor: pointer;
 }
 
@@ -365,6 +368,11 @@ filter: drop-shadow(1px 1px 1px white);
  }
 .logo {
     margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+    padding: 20px 0;
 }
  .nav {
      display: none;
@@ -372,7 +380,7 @@ filter: drop-shadow(1px 1px 1px white);
      align-items: center;
      justify-content: center;
      width: 100%;
-     min-height: 200px;
+     min-height: 80vh;
  }
 
  .buttons {

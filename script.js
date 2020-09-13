@@ -1,14 +1,18 @@
 const   toggle = document.querySelector(".menu");
 
 
-toggle.addEventListener("click", function () {
 
+toggle.addEventListener("click", function (toggler) {
+  let togglenav = document.querySelector(".nav");
 
-    const b = document.querySelector(".nav");
-    b.style.display = "flex";
-    const s = document.querySelector(".buttons");
-    s.style.display = "flex";
+  if (togglenav.style.display === "flex" ) {
+    togglenav.style.display = "none";
 
-             toggle.style.display = "none";
+  } else {
+    togglenav.style.display = "flex";
+
+  }
+   
+
 
 })
