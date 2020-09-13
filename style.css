@@ -294,15 +294,16 @@ margin:0 10px;
 	justify-content: center;
 	flex-direction: column;
 	flex-wrap: wrap;
+	padding: 100px 0;
 }
 
 .artist .row {
 	width: 100%;
-	min-height: 500px;
+	min-height: 400px;
 	display: flex;
 	flex-direction: row;
 	align-items: center;
-	justify-content: space-evenly;
+	justify-content: center;
 	flex-wrap: wrap;
 }
 
@@ -312,23 +313,75 @@ margin:0 10px;
 }
 
 .box {
-	width:350px;
-	min-height: 400px;
+	width:370px;
+	min-height: 370px;
 		background: linear-gradient(
-          rgba(0, 0, 0, 0.1), 
-          rgba(0, 0, 0, 0.1)
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)
         ),url(traviss.jpg);
 	display: flex;
 	align-items: center;
 	justify-content: center;
-	margin: 10px 0;
+	background-position: center;
+	flex-wrap: wrap;
+	margin: 20px;
+	object-fit: cover;
 	flex-direction: column;
 box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
 
-filter: drop-shadow(1px 1px 1px white);
+filter: drop-shadow(1px 1px 1px #232324);
 		background-size: cover;
 }
 
+.overlay {
+	width: 100%;
+	min-height: 300px;
+	opacity: 0;
+	display: flex;
+	align-items: center;
+		flex-wrap: wrap;
+
+	justify-content: center;
+	transition: 0.5s ease-in-out;
+
+}
+
+.text {
+	display: flex;
+	color: white;
+	align-items:center;
+	justify-content: flex-start;
+	width:100%;
+	min-height:30px;
+}
+
+.text h3 {
+	color: white;
+	padding: 0 20px;
+}
+
+.box:hover .overlay {
+	opacity:1;
+}
+
+
+.box1 {
+	background: linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)
+        ), url(https://miro.medium.com/max/500/1*XBctk0GJ9Qq5zPjk2nhXig.jpeg);
+			background-size: cover;
+
+}
+
+.box2 {
+	background: linear-gradient(
+          rgba(0, 0, 0, 0.7), 
+          rgba(0, 0, 0, 0.7)
+        ), url(https://www.udiscovermusic.com/wp-content/uploads/2019/05/Eminem-Relapse.jpg);
+			background-size: cover;
+
+}
 
 
 .box h1 {
@@ -347,9 +400,6 @@ filter: drop-shadow(1px 1px 1px white);
 	min-height: 70px;
 	border-radius: 300px;
 }
-
-
-
 
 
 
