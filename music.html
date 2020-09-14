@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+  <head>
+	  <link rel="stylesheet" href="music.css">
+	  <title>Audio Player</title>
+	      <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+
+  </head>
+  <body>
+	<div class="main">	
+<div class="row">
+	<div class="box">
+		<div class="image">1</div>
+		
+		<h3>Travis Scott</h3>
+		<h2> AstroWorld</h2>
+		<div class="buttons">
+			<i class="fas fa-forward"></i>
+			<i id="play" onclick="play()" class="fas fa-play">    <audio id="audio" src="travis.mp3"></audio>
+</i>
+<i id="pause" class="fas fa-pause"></i>
+<i class="fas fa-backward"></i>
+		</div>
+		<div class="bb">
+			<h5> 0:00</h5>
+				<div class="progress"><div class="fill"></div></div>
+							<h5> 2:35</h5>
+
+</div>
+
+	</div>
+	</div>
+	</div>
+ <script>
+      function play() {
+        var audio = document.getElementById("audio");
+	let b = document.getElementById("pause");
+		let c = document.getElementById("play");
+	c.style.display = "flex";
+c.
+
+	 if (c.style.display === "flex" ) {
+    c.style.display === "none";
+
+  } else {
+    c.style.display === "flex";
+
+
+  }
+
+  
+
+	    audio.paused? audio.play() : audio.pause();
+
+      }
+      
+
+      
+    </script>
+  </body>
+</html>

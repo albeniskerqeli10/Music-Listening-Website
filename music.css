@@ -1,0 +1,143 @@
+body {
+	padding: 0;
+font-family: 'Montserrat', sans-serif;
+	margin: 0;
+}
+
+.main {
+	width: 100%;
+	min-height: 100vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	background-color: #f4f4f4;
+	flex-wrap: wrap;
+
+}
+
+
+.row {
+	width: 100%;
+	min-height: 80vh;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	flex-wrap: wrap;
+
+}
+
+#pause {
+	display: none;
+}
+
+.box {
+	width:300px;
+	min-height: 500px;
+	background-color: white;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+		flex-wrap: wrap;
+box-shadow: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+
+	flex-direction: column;
+}
+
+
+.box .image {
+	width:100%;
+	min-height: 250px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-image: url(https://miro.medium.com/max/500/1*XBctk0GJ9Qq5zPjk2nhXig.jpeg);
+	background-size: cover;
+	background-position: center;
+	flex-direction:column;
+		box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+
+}
+
+.box h2 {
+ color:black;
+ font-weight: bold;
+ font-size: 20px;
+ margin-top: -20px;
+ padding: 10px 0;
+}
+
+.box h3 {
+	font-size: 15px;
+	font-weight: normal;
+	 padding:10px 0;
+
+
+}
+
+.box .buttons {
+	width:100%;
+	min-height: 30px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-direction: row;
+	flex-wrap: wrap;
+}
+
+.buttons i {
+	background-color: #ff9a00;
+	color:white;
+	width:40px;
+	min-height: 40px;
+	font-size: 12px;
+	border-radius: 500px;
+	display: flex;
+	box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+	align-items: center;
+	justify-content: center;
+}
+
+.progress {
+	width:60%;
+	height: 5px;
+	background-color: #121212;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+		box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+
+	flex-direction: row;
+	margin: 20px 0;
+	
+
+}
+
+h5 {
+	color: gray;
+}
+
+
+.fill {
+	width:50%;
+	height: 5px;
+		background-color: #ff9a00; 
+
+}
+
+
+
+
+
+ .bb {
+	width:100%;
+	min-height: 100px;
+	display: flex;
+	align-items: center;
+	justify-content: space-evenly;
+	flex-direction: row;
+	flex-wrap: wrap;
+}

@@ -440,11 +440,12 @@ filter: drop-shadow(1px 1px 1px #232324);
 	color: white;
 }
 
-.box .play {
+.box a {
 	background-color: var(--orange);
 	width: 70px;
 	color: white;
 		display: flex;
+		text-decoration: none;
 	align-items: center;
 	justify-content: center;
 	flex-direction: row;
