@@ -325,7 +325,7 @@ margin:0 10px;
 }
 
 .menu {
-    color:white;
+    color:black;
     font-weight: bold;
     display: none;
     font-size: 30px;
@@ -563,7 +563,7 @@ margin-right: 10px;
 }
 
 
-@media only screen and (max-width: 850px) {
+@media only screen and (max-width: 1000px) {
  
  .header {
      display: flex;
